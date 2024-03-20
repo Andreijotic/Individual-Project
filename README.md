@@ -4,4 +4,4 @@
 ## Mockup
 
 ## Images
-<img src= 
+<img src=https://github.com/Andreijotic/Individual-Project/blob/main/images/Character1.png?raw=true>
