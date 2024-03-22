@@ -1,6 +1,6 @@
 # Pixel Peril
 ## Description
-Pixel Peril is a simple 2d shooter game that will have graphics, a scoring system, and a way to die. The goal will be to survive as long as possible and get upgrades along the way.
+Pixel Peril is a simple 2d shooter game that will have enemies that are trying to get to you, a scoring system, and a way to die. The goal will be to survive as long as possible and get upgrades along the way.
 ## Mockup
 <img src="https://github.com/Andreijotic/Individual-Project/blob/main/images/PixelPerilUML.png?raw=true">
 
