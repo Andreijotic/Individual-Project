@@ -4,4 +4,4 @@ Pixel Peril is a simple 2d shooter game that will have graphics, a scoring syste
 ## Mockup
 
 ## Images
-<img src="https://github.com/Andreijotic/Individual-Project/blob/main/images/Character1.png?raw=true">
+<img src="https://github.com/Andreijotic/Individual-Project/blob/main/images/Character1.png?raw=true" width="500" height="500">
