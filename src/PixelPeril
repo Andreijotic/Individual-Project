@@ -1,1 +1,37 @@
+boolean play;
+PImage startScreen;
 
+void setup() {
+  size(500, 500);
+}
+
+void draw() {
+  if (!play) {
+    startScreen();
+  } else {
+    background(255);
+    fill(27, 242, 75);
+    display();
+  }
+}
+
+void startScreen () {
+  startScreen = loadImage("background.png");
+  startScreen.resize(width, height);
+  imageMode(CENTER);
+  image(startScreen, width/2, height/2);
+  textAlign(CENTER);
+  fill(0);
+  textSize(50);
+  text("Welcome to Pixel Peril", width/2, 100);
+  text("Click to play...", width/2, 300);
+  if (mousePressed) {
+    play=true;
+  }
+}
+
+void display() {
+  fill(0);
+  textSize(80);
+  text("Game", width/2, 80);
+}
