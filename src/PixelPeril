@@ -1,17 +1,22 @@
+// Andrei Jotic
+
+Player p1;
 boolean play;
 PImage startScreen;
 
 void setup() {
   size(500, 500);
+  p1 = new Player(width/2);
 }
 
 void draw() {
   if (!play) {
     startScreen();
   } else {
-    background(255);
+    image(startScreen, width/2, height/2);
     fill(27, 242, 75);
-    display();
+    p1.display();
+    p1.move(mouseX);
   }
 }
 
@@ -28,10 +33,4 @@ void startScreen () {
   if (mousePressed) {
     play=true;
   }
-}
-
-void display() {
-  fill(0);
-  textSize(80);
-  text("Game", width/2, 80);
 }
